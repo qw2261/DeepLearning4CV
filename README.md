@@ -43,24 +43,24 @@ A feedforward neural network with a linear output layer and one or more hidden l
 
 - In general you only need n - 1 discriminate functions. But in practice, it is simpler to use nand train n **one-vs-all** classifiers.
 
-- In the binary case, we used a logistic sigmoid function to assign probabilities to the predictions:  $P (y = 1|x)$
+- In the binary case, we used a logistic sigmoid function to assign probabilities to the predictions: $P (y = 1|x)$
 - In the multi-class, $P(y=i|x) = \frac{e^{z_{i}}}{\sum_{j}{e^{z_{j}}}}$ , Softmax
 
-![](/Users/wangqi/Desktop/Courses/2019下半年/DeepLearning4CV/Graphs/Loss Layer.png)
+![](https://github.com/qw2261/DeepLearning4CV/blob/master/Graphs/Loss%20Layer.png)
 
-![](/Users/wangqi/Desktop/Courses/2019下半年/DeepLearning4CV/Graphs/softmax loss layer.png)
+![](https://github.com/qw2261/DeepLearning4CV/blob/master/Graphs/softmax%20loss%20layer.png)
 
 ### 4. Regularization
 
 #### L2 Regularization
 
-![](/Users/wangqi/Desktop/Courses/2019下半年/DeepLearning4CV/Graphs/l2.png)
+![](https://github.com/qw2261/DeepLearning4CV/blob/master/Graphs/l2.png)
 
-![](/Users/wangqi/Desktop/Courses/2019下半年/DeepLearning4CV/Graphs/Frobenius norm.png)
+![](https://github.com/qw2261/DeepLearning4CV/blob/master/Graphs/Frobenius%20norm.png)
 
 #### L1 Regularization
 
-![](/Users/wangqi/Desktop/Courses/2019下半年/DeepLearning4CV/Graphs/l1.png)
+![](https://github.com/qw2261/DeepLearning4CV/blob/master/Graphs/l1.png)
 
 
 
